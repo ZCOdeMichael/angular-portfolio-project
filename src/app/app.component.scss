@@ -1,0 +1,14 @@
+.fixed {
+    position: sticky;
+    width: 100%;
+    transition: 0.3s linear;
+    top: 0px;
+    z-index: 9999;
+}
+
+.nofixed {
+    position: static;
+    width: 100%;
+    transition: 0.3s linear;
+    top: -50px;
+}
