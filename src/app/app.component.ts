@@ -16,7 +16,7 @@ export class AppComponent {
   navbarFixed: boolean = false;
   atTopPage: boolean = true;
   currPos = window.pageYOffset;
-
+  
   @HostListener('window:scroll', ['$event']) onScroll() {
     
     if(document.documentElement.scrollTop > this.currPos){
